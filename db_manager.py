@@ -60,6 +60,12 @@ class DatabaseManager:
         if row:
             return Ammunition(*row)
         return None
+    
+    def clear_database(self):
+        self.cursor.execute('DROP TABLE IF EXISTS Ammunition')
+        self.conn.commit()
+        self.create_tables()
+        self.conn.commit()
 
     def close(self):
         if self.conn:

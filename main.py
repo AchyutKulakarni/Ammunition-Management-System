@@ -86,7 +86,8 @@ def print_menu():
     print("5. Sort inventory by field")
     print("6. Export inventory to CSV and JSON")
     print("7. Compare two ammunition records by ID")
-    print("8. Exit")
+    print("8. Clear database")
+    print("9. Exit")
 
 def main():
     id_gen = unique_id_generator(start=1000)
@@ -109,6 +110,7 @@ def main():
                 batch = generate_ammo_batch(count, id_gen)
                 for ammo in batch:
                     inventory.add_ammunition(ammo)
+                inventory.ammo_list = db.fetch_all_ammunition()
                 print(f"{count} sample ammunition records added.")
             except ValueError:
                 print("Invalid number.")
@@ -127,7 +129,7 @@ def main():
                 print("Ammunition ID not found.")
 
         elif choice == '4':
-            field = input("Enter field to search by (caliber/type/manufacturer): ").strip()
+            field = input("Enter field to search by (caliber/ammo_type/manufacturer): ").strip()
             pattern = input("Enter regex pattern to search: ").strip()
             results = regex_search(inventory.ammo_list, field, pattern)
             print(f"\nSearch results for pattern '{pattern}' in {field}:")
@@ -170,6 +172,11 @@ def main():
                 print("One or both ammunition IDs not found.")
 
         elif choice == '8':
+            db.clear_database()
+            inventory.ammo_list.clear()  
+            print("Database cleared.")
+
+        elif choice == '9':
             print("Exiting...")
             db.close()
             break
