@@ -1,0 +1,16 @@
+id,caliber,ammo_type,quantity,manufacturer,price,date_manufactured,expiry_date
+183aeb93-441c-4e45-bdfa-791e8b0d8bb4,22LR,Cartridge,906,Acme Corp,0.8,2023-01-01,2028-01-01
+6f6ae371-2c57-4ec0-85c0-a3c0a1d3d9c5,12 Gauge,Cartridge,771,Best Ammo Inc,2.44,2023-01-01,2028-01-01
+bd541a44-7aec-49cf-ba0b-a1a9d0fc6c69,22LR,Shell,83,Best Ammo Inc,1.44,2023-01-01,2028-01-01
+d0bfe918-984c-414d-b666-2e939b10a3ad,7.62mm,Bullet,116,Acme Corp,1.04,2023-01-01,2028-01-01
+88bac379-38c2-4d88-b348-652d8ffae385,7.62mm,Shell,437,Best Ammo Inc,1.7,2023-01-01,2028-01-01
+1000,9mm,Shell,97,Secure Gun Supplies,0.52,2023-01-01,2028-01-01
+1001,22LR,Shell,214,Acme Corp,0.92,2023-01-01,2028-01-01
+1002,.45ACP,Bullet,879,Secure Gun Supplies,0.73,2023-01-01,2028-01-01
+1003,5.56mm,Bullet,413,Acme Corp,0.8,2023-01-01,2028-01-01
+1004,9mm,Shell,851,Best Ammo Inc,1.94,2023-01-01,2028-01-01
+1005,5.56mm,Cartridge,116,Acme Corp,1.44,2023-01-01,2028-01-01
+1006,.45ACP,Cartridge,860,Best Ammo Inc,0.53,2023-01-01,2028-01-01
+1007,12 Gauge,Shell,777,Acme Corp,1.87,2023-01-01,2028-01-01
+1008,12 Gauge,Cartridge,788,Secure Gun Supplies,1.7,2023-01-01,2028-01-01
+1009,.45ACP,Cartridge,768,Acme Corp,1.84,2023-01-01,2028-01-01

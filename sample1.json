@@ -1,0 +1,152 @@
+[
+    {
+        "ammo_id": "183aeb93-441c-4e45-bdfa-791e8b0d8bb4",
+        "caliber": "22LR",
+        "ammo_type": "Cartridge",
+        "quantity": 906,
+        "manufacturer": "Acme Corp",
+        "price": 0.8,
+        "date_manufactured": "2023-01-01",
+        "expiry_date": "2028-01-01"
+    },
+    {
+        "ammo_id": "6f6ae371-2c57-4ec0-85c0-a3c0a1d3d9c5",
+        "caliber": "12 Gauge",
+        "ammo_type": "Cartridge",
+        "quantity": 771,
+        "manufacturer": "Best Ammo Inc",
+        "price": 2.44,
+        "date_manufactured": "2023-01-01",
+        "expiry_date": "2028-01-01"
+    },
+    {
+        "ammo_id": "bd541a44-7aec-49cf-ba0b-a1a9d0fc6c69",
+        "caliber": "22LR",
+        "ammo_type": "Shell",
+        "quantity": 83,
+        "manufacturer": "Best Ammo Inc",
+        "price": 1.44,
+        "date_manufactured": "2023-01-01",
+        "expiry_date": "2028-01-01"
+    },
+    {
+        "ammo_id": "d0bfe918-984c-414d-b666-2e939b10a3ad",
+        "caliber": "7.62mm",
+        "ammo_type": "Bullet",
+        "quantity": 116,
+        "manufacturer": "Acme Corp",
+        "price": 1.04,
+        "date_manufactured": "2023-01-01",
+        "expiry_date": "2028-01-01"
+    },
+    {
+        "ammo_id": "88bac379-38c2-4d88-b348-652d8ffae385",
+        "caliber": "7.62mm",
+        "ammo_type": "Shell",
+        "quantity": 437,
+        "manufacturer": "Best Ammo Inc",
+        "price": 1.7,
+        "date_manufactured": "2023-01-01",
+        "expiry_date": "2028-01-01"
+    },
+    {
+        "ammo_id": "1000",
+        "caliber": "9mm",
+        "ammo_type": "Shell",
+        "quantity": 97,
+        "manufacturer": "Secure Gun Supplies",
+        "price": 0.52,
+        "date_manufactured": "2023-01-01",
+        "expiry_date": "2028-01-01"
+    },
+    {
+        "ammo_id": "1001",
+        "caliber": "22LR",
+        "ammo_type": "Shell",
+        "quantity": 214,
+        "manufacturer": "Acme Corp",
+        "price": 0.92,
+        "date_manufactured": "2023-01-01",
+        "expiry_date": "2028-01-01"
+    },
+    {
+        "ammo_id": "1002",
+        "caliber": ".45ACP",
+        "ammo_type": "Bullet",
+        "quantity": 879,
+        "manufacturer": "Secure Gun Supplies",
+        "price": 0.73,
+        "date_manufactured": "2023-01-01",
+        "expiry_date": "2028-01-01"
+    },
+    {
+        "ammo_id": "1003",
+        "caliber": "5.56mm",
+        "ammo_type": "Bullet",
+        "quantity": 413,
+        "manufacturer": "Acme Corp",
+        "price": 0.8,
+        "date_manufactured": "2023-01-01",
+        "expiry_date": "2028-01-01"
+    },
+    {
+        "ammo_id": "1004",
+        "caliber": "9mm",
+        "ammo_type": "Shell",
+        "quantity": 851,
+        "manufacturer": "Best Ammo Inc",
+        "price": 1.94,
+        "date_manufactured": "2023-01-01",
+        "expiry_date": "2028-01-01"
+    },
+    {
+        "ammo_id": "1005",
+        "caliber": "5.56mm",
+        "ammo_type": "Cartridge",
+        "quantity": 116,
+        "manufacturer": "Acme Corp",
+        "price": 1.44,
+        "date_manufactured": "2023-01-01",
+        "expiry_date": "2028-01-01"
+    },
+    {
+        "ammo_id": "1006",
+        "caliber": ".45ACP",
+        "ammo_type": "Cartridge",
+        "quantity": 860,
+        "manufacturer": "Best Ammo Inc",
+        "price": 0.53,
+        "date_manufactured": "2023-01-01",
+        "expiry_date": "2028-01-01"
+    },
+    {
+        "ammo_id": "1007",
+        "caliber": "12 Gauge",
+        "ammo_type": "Shell",
+        "quantity": 777,
+        "manufacturer": "Acme Corp",
+        "price": 1.87,
+        "date_manufactured": "2023-01-01",
+        "expiry_date": "2028-01-01"
+    },
+    {
+        "ammo_id": "1008",
+        "caliber": "12 Gauge",
+        "ammo_type": "Cartridge",
+        "quantity": 788,
+        "manufacturer": "Secure Gun Supplies",
+        "price": 1.7,
+        "date_manufactured": "2023-01-01",
+        "expiry_date": "2028-01-01"
+    },
+    {
+        "ammo_id": "1009",
+        "caliber": ".45ACP",
+        "ammo_type": "Cartridge",
+        "quantity": 768,
+        "manufacturer": "Acme Corp",
+        "price": 1.84,
+        "date_manufactured": "2023-01-01",
+        "expiry_date": "2028-01-01"
+    }
+]
