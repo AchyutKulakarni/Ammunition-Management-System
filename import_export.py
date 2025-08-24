@@ -8,11 +8,11 @@ def import_from_csv(file_path, id_gen):
     with open(file_path, newline='') as csvfile:
         reader = csv.DictReader(csvfile)
         for row in reader:
-            # Basic validation
+           
             if not (validate_caliber(row['caliber']) and validate_manufacturer(row['manufacturer']) and
                     validate_date(row['date_manufactured']) and validate_date(row['expiry_date'])):
-                continue  # Skip invalid rows
-
+                continue  
+                
             ammo_id = next(id_gen)
             ammo = Ammunition(
                 ammo_id=ammo_id,
